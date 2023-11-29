@@ -4,9 +4,6 @@ a[target="_blank"] {
 a[href^="https://www.google.com/"] { 
     color: green; 
 }
-.p10 :hover {
-   font-style: italic;
-}
 #second-div p:nth-child(odd) {
     color: blue;
 }
@@ -17,4 +14,8 @@ a[href^="https://www.google.com/"] {
     content: "-NEW";
     color: yellow;
     font-style: italic;
-}    
+}p:hover:nth-child(9) {
+    font-style: italic;
+}
+
+  
