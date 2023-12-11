@@ -4,17 +4,17 @@ a[target="_blank"] {
 a[href^="https://www.google.com/"] { 
     color: green; 
 }
-#second-div p:nth-child(odd) {
+#second-div>p:nth-child(odd) {
     color: blue;
 }
-#second-div p:nth-child(even) {
+#second-div>p:nth-child(even) {
     color: red;
 }
-#first-div p:after{
+#first-div>p:after{
     content: "-NEW";
     color: yellow;
     font-style: italic;
-}p:hover:nth-child(9) {
+}p:hover:nth-child(8) {
     font-style: italic;
 }
 
